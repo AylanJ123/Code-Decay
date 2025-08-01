@@ -1,0 +1,18 @@
+{
+    "name": "Editor",
+    "rootNamespace": "com.AylanJ123.CodeDecay.Editor",
+    "references": [
+        "GUID:48c9f6afdac61634db0e0f241c7d4d51"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

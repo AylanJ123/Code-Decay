@@ -1,0 +1,17 @@
+{
+    "name": "Core",
+    "rootNamespace": "com.AylanJ123.CodeDecay",
+    "references": [
+        "GUID:0b7ac75c46e9a6a40af1f197345cc88f",
+        "GUID:48c9f6afdac61634db0e0f241c7d4d51"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
