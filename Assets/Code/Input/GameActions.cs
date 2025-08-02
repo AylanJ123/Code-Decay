@@ -62,7 +62,7 @@ namespace com.AylanJ123.CodeDecay.Input
                     ""id"": ""852140f2-7766-474d-8707-702459ba45f3"",
                     ""expectedControlType"": """",
                     ""processors"": """",
-                    ""interactions"": ""Hold"",
+                    ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
@@ -71,7 +71,7 @@ namespace com.AylanJ123.CodeDecay.Input
                     ""id"": ""505aac1d-e54c-4142-9545-17f359993a0e"",
                     ""expectedControlType"": """",
                     ""processors"": """",
-                    ""interactions"": ""Hold"",
+                    ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
@@ -80,7 +80,7 @@ namespace com.AylanJ123.CodeDecay.Input
                     ""id"": ""fe4cd426-4dd8-43c7-95be-3c4186a1c484"",
                     ""expectedControlType"": """",
                     ""processors"": """",
-                    ""interactions"": ""Hold"",
+                    ""interactions"": """",
                     ""initialStateCheck"": false
                 }
             ],

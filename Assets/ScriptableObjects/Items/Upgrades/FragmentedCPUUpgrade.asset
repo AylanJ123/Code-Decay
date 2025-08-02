@@ -12,18 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43c6d1d901ebae348b4d7975e97a510d, type: 3}
   m_Name: FragmentedCPUUpgrade
   m_EditorClassIdentifier: 
-  itemId: 6
+  itemId: 5
   itemName: Fragmented CPU Upgrade
   description: 'A fragmented CPU. Slightly boosts all systems.
 
 
     Effect: Permanently
-    increases movement speed by +1
+    increases movement speed by +0.2
 
     Effect: Permanently increases damage dealt
-    by +5'
-  icon: {fileID: 0}
+    by +2'
+  icon: {fileID: 21300000, guid: 97d3a43662944694a86544dda54e674b, type: 3}
+  iconDetail: {fileID: 21300000, guid: 73f14608b982fae4aaf581d35e6ce005, type: 3}
   highlightColor:
     serializedVersion: 2
     rgba: 4278245375
-  effects: []
+  effects:
+  - {fileID: 11400000, guid: 89707731eb63e524786f77b01fa60848, type: 2}
+  - {fileID: 11400000, guid: 4f6b2d6a59d1d1041b3ece1e959bc5fd, type: 2}

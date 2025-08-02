@@ -12,19 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288149bcc7c3987498325bef28eba759, type: 3}
   m_Name: OverclockPotion
   m_EditorClassIdentifier: 
-  itemId: 1
+  itemId: 0
   itemName: Overclock Potion
   description: 'This potion temporarily pushes your system beyond its limits.
 
 
     Effect:
-    Increased movement speed by +3 for 10s
+    Increased movement speed by +5 for 10s
 
     Debuff: Reduced health by -10 on
     use'
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 084298f6297d32f4287a91deba050761, type: 3}
+  iconDetail: {fileID: 21300000, guid: ccdecfa326673f744af1156e2e7379a6, type: 3}
   highlightColor:
     serializedVersion: 2
     rgba: 4278226175
-  effects: []
+  effects:
+  - {fileID: 11400000, guid: 19e3a89ba13e35b4bac4222ac26855ac, type: 2}
+  - {fileID: 11400000, guid: d7ca3960af4495c4ebb372d84c69b557, type: 2}
   duration: 10

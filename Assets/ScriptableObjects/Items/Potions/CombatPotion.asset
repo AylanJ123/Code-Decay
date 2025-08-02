@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 288149bcc7c3987498325bef28eba759, type: 3}
   m_Name: CombatPotion
   m_EditorClassIdentifier: 
-  itemId: 2
+  itemId: 1
   itemName: Combat Potion
   description: "This glowing fluid contains encrypted combat protocols. \n\nEffect:
-    Increased damage dealt by +15 for 15s\nDebuff: Reduced movement speed by -2 for
+    Increased damage dealt by +10 for 15s\nDebuff: Reduced movement speed by -1 for
     15s"
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 084298f6297d32f4287a91deba050761, type: 3}
+  iconDetail: {fileID: 21300000, guid: ccdecfa326673f744af1156e2e7379a6, type: 3}
   highlightColor:
     serializedVersion: 2
     rgba: 4289531242
-  effects: []
+  effects:
+  - {fileID: 11400000, guid: d4a8919587395a54cbd63389b234bb64, type: 2}
+  - {fileID: 11400000, guid: c016d03fd3cea7b49868207a0f86bc94, type: 2}
   duration: 15

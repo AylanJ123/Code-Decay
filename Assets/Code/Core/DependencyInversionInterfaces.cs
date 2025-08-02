@@ -27,4 +27,9 @@ namespace com.AylanJ123.CodeDecay
         void ApplyCooldownModification(float amount);
         void RemoveCooldownModification(float amount);
     }
+
+    public interface IStats
+    {
+        void Cleanse();
+    }
 }

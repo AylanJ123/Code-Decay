@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41146b24ce0b5a940a2758b27f6f1449, type: 3}
   m_Name: CooldownMinusDot1
   m_EditorClassIdentifier: 
-  value: 0
+  value: -0.1

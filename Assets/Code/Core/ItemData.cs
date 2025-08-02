@@ -18,6 +18,8 @@ namespace com.AylanJ123.CodeDecay
         public string description;
         [Tooltip("The icon to display in the inventory UI")]
         public Sprite icon;
+        [Tooltip("The icon detail to display in the inventory UI")]
+        public Sprite iconDetail;
         [Tooltip("The highlight color of the item")]
         public Color32 highlightColor;
 

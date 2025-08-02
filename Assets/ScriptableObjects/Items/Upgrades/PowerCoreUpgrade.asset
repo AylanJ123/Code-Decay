@@ -12,18 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43c6d1d901ebae348b4d7975e97a510d, type: 3}
   m_Name: PowerCoreUpgrade
   m_EditorClassIdentifier: 
-  itemId: 5
+  itemId: 4
   itemName: Power Core Upgrade
   description: 'A refined power core with a minor instability.
 
 
     Effect: Permanently
-    increases damage dealt by +20
+    increases damage dealt by +3.5
 
     Debuff: Permanently increases weapon cooldown
-    by +0.2'
-  icon: {fileID: 0}
+    by +0.075'
+  icon: {fileID: 21300000, guid: 97d3a43662944694a86544dda54e674b, type: 3}
+  iconDetail: {fileID: 21300000, guid: 73f14608b982fae4aaf581d35e6ce005, type: 3}
   highlightColor:
     serializedVersion: 2
     rgba: 4290013695
-  effects: []
+  effects:
+  - {fileID: 11400000, guid: 17c22576539efbd47a9d428eebd34f7c, type: 2}
+  - {fileID: 11400000, guid: 24b3955008a0eb14fa03627fb150c759, type: 2}
