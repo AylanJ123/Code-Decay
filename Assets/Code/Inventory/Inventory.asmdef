@@ -1,13 +1,13 @@
 {
-    "name": "Editor",
-    "rootNamespace": "com.AylanJ123.CodeDecay.Editor",
+    "name": "Inventory",
+    "rootNamespace": "com.AylanJ123.CodeDecay.Inventory",
     "references": [
         "GUID:e76b66fbffd58d74ab6fff6809a0c853",
+        "GUID:121c211f83a474948ab0b35afa55637b",
+        "GUID:0b7ac75c46e9a6a40af1f197345cc88f",
         "GUID:48c9f6afdac61634db0e0f241c7d4d51"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
