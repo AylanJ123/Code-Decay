@@ -44,11 +44,13 @@ namespace com.AylanJ123.CodeDecay.Inventory
         private void Start()
         {
             LoadInventory();
+            OnInventoryUpdated?.Invoke();
         }
 
         private void OnApplicationQuit()
         {
             SaveInventory();
+            OnInventoryUpdated?.Invoke();
         }
 
         private void SaveInventory()

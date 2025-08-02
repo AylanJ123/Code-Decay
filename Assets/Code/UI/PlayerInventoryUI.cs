@@ -63,6 +63,7 @@ namespace com.AylanJ123.CodeDecay.UI
             CreateAllSlots();
             tooltipCanvasGroup.alpha = 0; // Ocultar el tooltip al inicio usando el CanvasGroup
             tooltipCanvasGroup.blocksRaycasts = false;
+            UpdateUI();
         }
 
         private void OnDestroy()

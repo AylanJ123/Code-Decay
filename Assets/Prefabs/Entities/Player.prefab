@@ -217,8 +217,9 @@ MonoBehaviour:
     projectilePrefab: {fileID: 6588364367565928484, guid: 99c62e120d0bc7e49ac6dc374ca11bf0, type: 3}
     firePoint: {fileID: 134120330169397032}
     mainCamera: {fileID: 6966243016083228328}
+    anim: {fileID: 5921226777682625373}
     projectileRange: 100
-    baseDamage: 10
+    baseDamage: 40
     baseCooldown: 1
     currentDamage: 0
     currentCooldown: 0
@@ -248,6 +249,10 @@ MonoBehaviour:
   tempDamageModifier: 0
   tempSpeedModifier: 0
   tempCooldownModifier: 0
+  worldItemPrefab: {fileID: 757491102516952638, guid: d6e6179c280b99148b7e980951775039, type: 3}
+  ejectionForwardForce: 5
+  ejectionUpwardForce: 5
+  respawnHeight: 2
 --- !u!114 &6254464988661725285
 MonoBehaviour:
   m_ObjectHideFlags: 0

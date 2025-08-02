@@ -20,6 +20,10 @@ namespace com.AylanJ123.CodeDecay.Player
         [SerializeField, InitializationField, MustBeAssigned]
         private Camera mainCamera;
 
+        [Tooltip("The Animator")]
+        [SerializeField, InitializationField, MustBeAssigned]
+        private Animator anim;
+
         [Tooltip("The maximum distance of the raycast")]
         [SerializeField, InitializationField, Min(1f)]
         private float projectileRange = 100f;
@@ -70,7 +74,9 @@ namespace com.AylanJ123.CodeDecay.Player
         {
             if (Time.time >= nextFireTime)
             {
-                nextFireTime = Time.time + Mathf.Max(currentDamage, 0.015f);
+                anim.ResetTrigger("Fire");
+                anim.SetTrigger("Fire");
+                nextFireTime = Time.time + Mathf.Max(currentCooldown, 0.015f);
                 Vector3 targetPoint;
 
                 if (Physics.Raycast(
